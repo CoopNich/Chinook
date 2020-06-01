@@ -7,3 +7,6 @@ where c.Country = "Brazil";
 select i.InvoiceId, i.InvoiceDate, i.BillingCountry, c.FirstName, c.LastName from Invoice i 
 left join Customer c on i.CustomerId = c.CustomerId
 where i.BillingCountry = "Brazil";
+
+select * from Employee e 
+where e.Title = "Sales Support Agent";
